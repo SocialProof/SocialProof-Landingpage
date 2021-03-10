@@ -1,0 +1,46 @@
+<svg width="25" height="26" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>chrome</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-10072 -309)">
+<g id="chrome">
+<g id="Shape">
+<use xlink:href="#path0_fill" transform="translate(10074.1 309.056)" fill="#E6312A"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path1_fill" transform="translate(10083.2 316.078)" fill="#FEDA00"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path2_fill" transform="translate(10072.1 314.589)" fill="#65B54C"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path3_fill" transform="translate(10083.2 325.268)" fill="#60AC48"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path4_fill" transform="translate(10078.7 316.08)" fill="#FFFFFF"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path5_fill" transform="translate(10079.6 317.011)" fill="url(#paint5_linear)"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path6_fill" transform="translate(10085.1 316.083)" fill="#F1CF00"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path7_fill" transform="translate(10074.1 314.6)" fill="#DA3027"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 8.90764 -8.58409 0 4.45815 0.062183)">
+<stop offset="0" stop-color="#96C1E9"/>
+<stop offset="1" stop-color="#146CB5"/>
+</linearGradient>
+<path id="path0_fill" d="M 9.93875 0.00225257C 9.93875 0.00225257 17.0143 -0.329146 20.764 7.04733C 18.7818 7.04733 9.33857 7.04733 9.33857 7.04733C 9.33857 7.04733 7.18012 6.97305 5.34104 9.69281C 4.81245 10.8299 4.2453 12.0069 4.88403 14.3153C 3.96449 12.6983 0 5.54461 0 5.54461C 0 5.54461 2.79166 0.299369 9.93875 0.00225257Z"/>
+<path id="path1_fill" d="M 11.2933 11.7151C 11.2933 11.7151 8.03359 18.2345 0 17.9146C 0.991122 16.1376 5.71547 7.64693 5.71547 7.64693C 5.71547 7.64693 6.85526 5.74424 5.51174 2.73309C 4.82896 1.68747 4.12967 0.590423 1.88313 0.00761836C 3.68917 -0.00952295 11.6457 0.00761836 11.6457 0.00761836C 11.6457 0.00761836 14.619 5.1443 11.2933 11.7151Z"/>
+<path id="path2_fill" d="M 1.56143 13.2502C 1.56143 13.2502 -2.24889 7.05651 2.03496 0C 3.02608 1.7827 7.74492 10.2676 7.74492 10.2676C 7.74492 10.2676 8.76358 12.2446 11.9462 12.5417C 13.1631 12.4503 14.424 12.3703 16.0373 10.6448C 15.1508 12.2789 11.1533 19.4154 11.1533 19.4154C 11.1533 19.4154 5.37724 19.5297 1.56143 13.2502Z"/>
+<path id="path3_fill" d="M 0 8.78778L 1.60782 1.82841C 1.60782 1.82841 3.37532 1.68556 4.85649 0C 3.93145 1.67414 0 8.78778 0 8.78778Z"/>
+<path id="path4_fill" d="M 0 5.55379C 0 2.48549 2.39521 0 5.35206 0C 8.3089 0 10.7041 2.48549 10.7041 5.55379C 10.7041 8.62208 8.3089 11.1076 5.35206 11.1076C 2.39521 11.1076 0 8.62208 0 5.55379Z"/>
+<path id="path5_fill" d="M 0 4.62244C 0 2.06839 1.99326 0 4.45454 0C 6.91583 0 8.90908 2.06839 8.90908 4.62244C 8.90908 7.1765 6.91583 9.24488 4.45454 9.24488C 1.99876 9.24488 0 7.1765 0 4.62244Z"/>
+<path id="path6_fill" d="M 9.76255 0.00253945L 3.14406 2.0195C 3.14406 2.0195 2.14743 0.499638 0 0.00253945C 1.86111 -0.00317432 9.76255 0.00253945 9.76255 0.00253945Z"/>
+<path id="path7_fill" d="M 4.75188 8.52495C 3.82132 6.85653 0 0 0 0L 4.90055 5.03383C 4.90055 5.03383 4.39397 6.10802 4.58669 7.64503L 4.75188 8.52495Z"/>
+</defs>
+</svg>
