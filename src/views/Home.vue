@@ -221,7 +221,7 @@
                          <img src="@/assets/images/icon.png" alt="" class="logo" />
 
                          <div class="copyright is-hidden-touch">
-                              Copyright @ yourtrolli.co.uk 2021. All Rights Reserved.
+                              Copyright @ yourtrolli.com 2021. All Rights Reserved.
                          </div>
                     </div>
 
@@ -238,7 +238,7 @@
                          <div class="link">Terms</div>
                     </div>
                </div>
-               <div class="copyright is-hidden-desktop">Copyright @ yourtrolli.co.uk 2021. <br />All Rights Reserved.</div>
+               <div class="copyright is-hidden-desktop">Copyright @ yourtrolli.com 2021. <br />All Rights Reserved.</div>
           </footer>
      </div>
 </template>
