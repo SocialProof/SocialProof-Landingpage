@@ -1,9 +1,7 @@
 <template>
      <div class="home">
           <div class="container">
-               <nav class="">
-                    <img src="@/assets/images/icon.png" alt="" class="logo" />
-               </nav>
+       
 
                <div class="herocontent ">
                     <div class="veralign">
@@ -40,7 +38,7 @@
                                                                  size="is-medium"
                                                                  native-type="submit"
                                                                  :loading="isloading"
-                                                                 >Join The Waitlist</b-button
+                                                                 >Join Waitlist</b-button
                                                             >
                                                        </p>
                                                   </b-field>
@@ -64,10 +62,11 @@
 
                     <div class="column">
                          <div class="">
-                              <h2>Add from any <span>shopping cart</span></h2>
+                              <div style="font-size: 40px;">🛍️</div>
+                              <h2>Create your <span class="break">own shopping basket</span></h2>
                               <div>
                                    <p>
-                                        Get every favourite products of yours to trolli and check out whenever you want
+                                        Save all your shopping items in one place
                                    </p>
                               </div>
                          </div>
@@ -80,10 +79,11 @@
                     <div class="columns is-vcentered ">
                          <div class="column">
                               <div class="">
+                                   <div style="font-size: 40px;">🤑</div>
                                    <h2>Get notified <span>when price drops</span></h2>
                                    <div>
                                         <p>
-                                             Trolli will notify you if there is a price drop or discount on your items.
+                                             We’ll notify you when we detect a price drop on any of your Trolli items
                                         </p>
                                    </div>
                               </div>
@@ -112,7 +112,7 @@
 
                     <div class="column">
                          <div class="">
-                              <h2>Websites currently live</h2>
+                              <h2>Websites currently live 🚀</h2>
                               <div>
                                    <p class="mt-10">
                                         We add 100+ websites every month. Dont miss out on the best price
@@ -183,7 +183,60 @@
                </div>
           </div>
 
-          <div class="section5">
+          <div class="section5 ">
+               <div class="container">
+                    <div class="columns is-vcentered ">
+                         <div class="column">
+                              <div>
+                                   <h2>How it works</h2>
+                                   <div class="howitworks">
+                                        <div
+                                             data-aos="fade-in"
+                                             data-aos-delay="100"
+                                             data-aos-duration="800"
+                                             class="howitworksitem aos-init aos-animate"
+                                        >
+                                             <div class="columns is-mobile">
+                                                  <div class="count">1</div>
+                                                  <div class="column">
+                                                       <h4>Add to desktop</h4>
+                                                       <p>It takes a few clicks to add to your computer and its 100% free</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div data-aos="fade-in" data-aos-delay="200" data-aos-duration="800" class="howitworksitem aos-init">
+                                             <div class="columns  is-mobile">
+                                                  <div class="count">2</div>
+                                                  <div class="column">
+                                                       <h4>Add items</h4>
+                                                       <p>
+                                                            Add items from any online shop into a centralised basket. Say goodbye to 100’s of open
+                                                            tabs
+                                                       </p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div data-aos="fade-in" data-aos-delay="300" data-aos-duration="800" class="howitworksitem aos-init">
+                                             <div class="columns  is-mobile">
+                                                  <div class="count">3</div>
+                                                  <div class="column">
+                                                       <h4>We'll do the work</h4>
+                                                       <p>
+                                                            We'll automatically tell you if there are price drops on items in your basket
+                                                       </p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="column">
+                              <img src="@/assets/images/howitworks.png" alt="" class="img1" />
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="section6">
                <div class="container">
                     <h2>1000+ Happy shoppers</h2>
                     <p class="herosub mt-10">
@@ -204,7 +257,7 @@
 
                               <p class="control">
                                    <b-button class="button is-primary" size="is-medium" native-type="submit" :loading="isloading"
-                                        >Join The Waitlist</b-button
+                                        >Join Waitlist</b-button
                                    >
                               </p>
                          </b-field>
@@ -215,37 +268,14 @@
                </div>
           </div>
 
-          <footer>
-               <div class="columns is-mobile">
-                    <div class="column ">
-                         <img src="@/assets/images/icon.png" alt="" class="logo" />
-
-                         <div class="copyright is-hidden-touch">
-                              Copyright @ yourtrolli.com 2021. All Rights Reserved.
-                         </div>
-                    </div>
-
-                    <div class="links">
-                         <h3>Company</h3>
-                         <div class="link">Twitter</div>
-                         <div class="link">Linkedin</div>
-                         <div class="link">Facebook</div>
-                    </div>
-                    <div class="links">
-                         <h3>Support</h3>
-                         <div class="link">Contact</div>
-                         <div class="link">Privacy</div>
-                         <div class="link">Terms</div>
-                    </div>
-               </div>
-               <div class="copyright is-hidden-desktop">Copyright @ yourtrolli.com 2021. <br />All Rights Reserved.</div>
-          </footer>
+    
      </div>
 </template>
 
 <script>
      // @ is an alias to /src
      import axios from "axios";
+     import mixpanel from "../mixpanel.js";
 
      export default {
           name: "Home",
@@ -256,6 +286,10 @@
                     email: "",
                     isloading: false,
                };
+          },
+
+          mounted() {
+               mixpanel.custom("Landing page visit");
           },
 
           methods: {
@@ -310,19 +344,7 @@
           margin: 0 !important;
           padding: 0 !important;
      }
-     nav {
-          padding: 50px 0;
-          .logo {
-               height: 40px;
-          }
-          @media only screen and (max-width: 1200px) {
-               padding: 30px 40px;
-               margin: 0;
-          }
-
-          position: relative;
-          min-height: 50px;
-     }
+   
      .herocontent {
           text-align: left;
           position: relative;
@@ -587,8 +609,8 @@
           //      margin-top: 20px;
           // }
 
-          padding-bottom: 120px;
-          padding-top: 120px;
+          padding-bottom: 100px;
+          padding-top: 100px;
           background: #fbfcff;
 
           .liveitems {
@@ -632,7 +654,7 @@
           }
 
           @media only screen and (max-width: 1200px) {
-               padding: 100px 30px 100px 30px;
+               padding: 80px 30px 100px 30px;
                text-align: center;
           }
 
@@ -676,15 +698,112 @@
                }
           }
      }
-
      .section5 {
+          @media only screen and (max-width: 800px) {
+               padding: 0px 30px 100px 30px;
+               text-align: center;
+          }
+          h2 {
+               text-align: left;
+               span {
+                    display: block;
+               }
+               @media only screen and (max-width: 800px) {
+                    text-align: center;
+                    max-width: 100%;
+                    max-width: 100%;
+                    font-size: 27px !important;
+                    margin-top: 30px;
+                    span {
+                         display: inline;
+                    }
+               }
+          }
+          p {
+               max-width: 400px;
+               margin-bottom: 20px;
+               @media only screen and (max-width: 800px) {
+                    text-align: center;
+                    max-width: 330px;
+                    display: inline-block;
+                    margin-bottom: 20px;
+                    font-size: 17px;
+               }
+          }
+          margin-top: 20px;
+
+          .count {
+               color: #fff;
+               font-size: 23px;
+               text-align: center;
+               width: 40px;
+               height: 40px;
+               padding: 3px;
+               font-weight: 500;
+               border-radius: 100%;
+               background: #ff6c49;
+               margin-right: 20px;
+          }
+
+          .howitworks {
+               padding-top: 30px;
+               text-align: left;
+          }
+
+          h4 {
+               font-weight: 500;
+               margin-bottom: 3px;
+               color: #000;
+               font-size: 24px;
+          }
+
+          @media only screen and (max-width: 800px) {
+               h4 {
+                    font-size: 19px;
+               }
+               padding: 50px 40px 100px 40px;
+
+               p {
+                    margin-top: 0;
+                    max-width: 330px !important;
+                    text-align: left;
+                    display: inline-block;
+               }
+          }
+
+          padding: 100px;
+          padding-top: 110px;
+          padding-bottom: 170px;
+          img {
+               @media only screen and (max-width: 800px) {
+                    width: 100%;
+                    margin: auto;
+                    margin-top: 50px;
+               }
+
+               display: block;
+               width: 450px;
+               max-width: 70%;
+          }
+          .img1 {
+               position: relative;
+               top: 10px;
+               left: -30px;
+
+               @media only screen and (max-width: 800px) {
+                    left: -10px;
+               }
+          }
+     }
+     .section6 {
+          background: #fbfcff;
           padding: 100px;
           padding-top: 110px;
           padding-bottom: 120px;
           text-align: center;
 
           @media only screen and (max-width: 600px) {
-               padding: 120px 40px 100px 40px;
+               padding: 100px 40px 100px 40px;
 
                p {
                     max-width: 300px !important;
@@ -731,7 +850,7 @@
                margin: 0;
                padding: 0 10px;
           }
-          background: #fbfcff;
+          background: white;
           padding: 100px;
 
           .logo {
@@ -820,10 +939,11 @@
                margin: 0 !important;
           }
      }
-     .section5 {
+     .section6 {
           .subscribeForm {
                margin: auto;
                width: 382px;
           }
      }
+
 </style>
