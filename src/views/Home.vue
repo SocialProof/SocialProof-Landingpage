@@ -28,8 +28,8 @@
                                                   <span class="btn-text browser-name active">Add to Chrome</span>
                                              </button> -->
 
-                                             <form class="subscribeForm" @submit.prevent="waitinglist">
-                                                  <b-field label="">
+                                             <div class="subscribeForm" >
+                                                  <!-- <b-field label="">
                                                        <b-input type="email" placeholder="Email" required size="is-medium" v-model="email"></b-input>
 
                                                        <p class="control">
@@ -41,8 +41,18 @@
                                                                  >Join Waitlist</b-button
                                                             >
                                                        </p>
-                                                  </b-field>
-                                             </form>
+                                                  </b-field> -->
+
+                                                  <a target="_blank" href="https://chrome.google.com/webstore/detail/yourtrolli/fmaceobkgpcdmljgdicmicdahpdkamem">
+                                                         <b-button
+                                                                 class="button is-primary addtochromebtn"
+                                                                 size="is-medium"
+                                                                 native-type="submit"
+                                                                 > <span> Add To Chrome (It's free)
+                                                                      </span>
+                                                            </b-button>
+                                                  </a>
+                                             </div>
                                         </div>
                                    </div>
                               </div>
@@ -251,8 +261,8 @@
                          </button>
                     </div> -->
 
-                    <form class="subscribeForm mt-6" @submit.prevent="waitinglist">
-                         <b-field label="">
+                    <div class="subscribeForm mt-6">
+                         <!-- <b-field label="">
                               <b-input type="email" placeholder="Email" required size="is-medium" v-model="email"></b-input>
 
                               <p class="control">
@@ -260,8 +270,19 @@
                                         >Join Waitlist</b-button
                                    >
                               </p>
-                         </b-field>
-                    </form>
+                         </b-field> -->
+
+
+                                                  <a target="_blank" href="https://chrome.google.com/webstore/detail/yourtrolli/fmaceobkgpcdmljgdicmicdahpdkamem">
+                                                         <b-button
+                                                                 class="button is-primary addtochromebtn"
+                                                                 size="is-medium"
+                                                                 native-type="submit"
+                                                                 > <span> Add To Chrome
+                                                                      </span>
+                                                            </b-button>
+                                                  </a>
+                    </div>
                     <div class="mt-4" data-aos="fade-in" data-aos-delay="500" data-aos-duration="800">
                          Its free 😄
                     </div>
@@ -343,6 +364,14 @@
      .column {
           margin: 0 !important;
           padding: 0 !important;
+     }
+
+     .addtochromebtn{
+          padding:0 40px;
+
+          img{
+               display:inline-block;
+          }
      }
    
      .herocontent {
@@ -913,7 +942,7 @@
      .subscribeForm {
           @media only screen and (max-width: 600px) {
                margin: auto;
-               width: 352px;
+               // width: 352px;
                text-align: center;
           }
           font-family: "Nunito";
@@ -942,7 +971,7 @@
      .section6 {
           .subscribeForm {
                margin: auto;
-               width: 382px;
+               // width: 382px;
           }
      }
 
