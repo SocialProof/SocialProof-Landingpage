@@ -1,4 +1,4 @@
-# trolli-landipage
+# socialproof-landipage
 
 ## Project setup
 ```

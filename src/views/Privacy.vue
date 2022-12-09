@@ -9,7 +9,7 @@
                          </h1>
 
                          <div>
-                              14 June 2021
+                              1 Dec 2022
                          </div>
                     </div>
                </div>
@@ -23,8 +23,8 @@
                               <ol>
                                    <li class="level2">
                                         <h2>Important information and who we are</h2>
-                                        Welcome to Trolli’s Privacy and Data Protection Policy (“<b>Privacy Policy</b>”).<br /><br />
-                                        At Trolli (“<b>we</b>”, “<b>us</b>”, or “<b>our</b>”) we are committed to protecting and respecting your
+                                        Welcome to SocialProof's Privacy and Data Protection Policy (“<b>Privacy Policy</b>”).<br /><br />
+                                        At SocialProof (“<b>we</b>”, “<b>us</b>”, or “<b>our</b>”) we are committed to protecting and respecting your
                                         privacy and Personal Data in compliance with the United Kingdom General Data Protection Regulation (“<b>
                                              GDPR</b
                                         >”), the Data Protection Act 2018 and all other mandatory laws and regulations of the United Kingdom.<br /><br />
@@ -44,10 +44,9 @@
                                    <li class="level2">
                                         <h2>Who is Your Data Controller</h2>
 
-                                        Trolli is your Data Controller and responsible for your Personal Data. We are not obliged by the GDPR to
+                                        SocialProof is your Data Controller and responsible for your Personal Data. We are not obliged by the GDPR to
                                         appoint a data protection officer and have not voluntarily appointed one at this time. Therefore, any
-                                        inquiries about your data should either be sent to us on email at yourtrolli@gmail.com or sent in a letter to
-                                        .<br /><br />
+                                        inquiries about your data should either be sent to us on email at contact@socialproof.works
 
                                         You have the right to make a complaint at any time to the Information Commissioner’s Office (ICO), the UK
                                         supervisory authority for data protection issues (www.ico.org.uk). We would, however, appreciate the chance to
@@ -213,7 +212,7 @@
 
                               <ol>
                                    <li class="level2">
-                                        <h2>What Control Do I Have Over Trolli’s Use Of My Personal Data?</h2>
+                                        <h2>What Control Do I Have Over SocialProof’s Use Of My Personal Data?</h2>
                                         You may delete your account at any time – this will remove your account page from our systems and our related
                                         software.<br /><br />
                                         We guarantee this will delete all stored data.<br /><br />
@@ -231,19 +230,19 @@
                                              entitled to ask us for a notice identifying the categories of personal customer information which we
                                              share with our affiliates and/or third parties for marketing purposes, and providing contact information
                                              for such affiliates and/or third parties. If you are a California resident and would like a copy of this
-                                             notice, please submit a written request to yourtrolli@gmail.com.</I
+                                             notice, please submit a written request to contact@socialproof.works</I
                                         >
                                    </li>
 
                                    <li class="level2">
-                                        <h2>How Does Trolli Protect Customers' Personal Data?</h2>
+                                        <h2>How Does SocialProof Protect Customers' Personal Data?</h2>
                                         We are concerned with keeping your data secure and protecting it from inappropriate disclosure. Any Personal
                                         Data collected by us is only accessible by a limited number of employees who have special access rights to
                                         such systems and are bound by obligations of confidentiality. If and when we use subcontractors to store your
                                         data, we will not relinquish control of your Personal Data or expose it to security risks that would not have
                                         arisen had the data remained in our possession. However, unfortunately no transmission of data over the
                                         internet is guaranteed to be completely secure. It may be possible for third parties not under the control of
-                                        Trolli to intercept or access transmissions or private communications unlawfully. While we strive to protect
+                                        SocialProof to intercept or access transmissions or private communications unlawfully. While we strive to protect
                                         your Personal Data, we cannot ensure or warrant the security of any Personal Data you transmit to us. Any such
                                         transmission is done at your own risk. If you believe that your interaction with us is no longer secure,
                                         please contact us.<br /><br />
@@ -269,10 +268,10 @@
                               <ol>
                                    <li class="level2">
                                         <h2>Will We Share Your Data With Third Parties?</h2>
-                                        We may also share Personal Data with interested parties in the event that Trolli anticipates a change in
+                                        We may also share Personal Data with interested parties in the event that SocialProof anticipates a change in
                                         control or the acquisition of all or part of our business or assets or with interested parties in connection
                                         with the licensing of our technology.<br /><br />
-                                        If Trolli is sold or makes a sale or transfer, we may, in our sole discretion, transfer, sell or assign your
+                                        If SocialProof is sold or makes a sale or transfer, we may, in our sole discretion, transfer, sell or assign your
                                         Personal Data to a third party as part of or in connection with that transaction. Upon such transfer, the
                                         Privacy Policy of the acquiring entity may govern the further use of your Personal Data. In all other
                                         situations your data will still remain protected in accordance with this Privacy Policy (as amended from time
@@ -303,8 +302,8 @@
                          <li class="level1">
                               <h1>INTERNATIONAL TRANSFER OF DATA</h1>
 
-                              Your information may be stored and processed in the US or other countries or jurisdictions outside the US where Trolli
-                              has facilities. We are currently storing data in the EU and so, by using Trolli, you are permitting and consenting to
+                              Your information may be stored and processed in the US or other countries or jurisdictions outside the US where SocialProof
+                              has facilities. We are currently storing data in the EU and so, by using SocialProof, you are permitting and consenting to
                               the transfer of information, including Personal Data, outside of the US.
                          </li>
 
@@ -312,8 +311,8 @@
                               <h1>NOTIFICATION OF CHANGES AND ACCEPTANCE OF POLICY</h1>
 
                               We keep our Privacy Policy under review and will place any updates on this webpage. This version is dated 14 June 2021.
-                              By using Trolli, you consent to the collection and use of data by us as set out in this Privacy Policy. Continued access
-                              or use of Trolli will constitute your express acceptance of any modifications to this Privacy Policy.
+                              By using SocialProof, you consent to the collection and use of data by us as set out in this Privacy Policy. Continued access
+                              or use of SocialProof will constitute your express acceptance of any modifications to this Privacy Policy.
                          </li>
 
                          <li class="level1">
@@ -326,11 +325,11 @@
                               or question is polite, reasonable and there is no relatively obvious other way to deal with or answer your concern or
                               question (e.g. FAQs, other areas of our website etc.). <br />
                               <br />
-                              Our staff are not authorised to contract on behalf of Trolli, waive rights or make representations (whether contractual
-                              or otherwise). If anything contained in an email from a Trolli address contradicts anything in this policy, our terms or
-                              any official public announcement on our website, or is inconsistent with or amounts to a waiver of any Trolli rights,
+                              Our staff are not authorised to contract on behalf of SocialProof, waive rights or make representations (whether contractual
+                              or otherwise). If anything contained in an email from a SocialProof address contradicts anything in this policy, our terms or
+                              any official public announcement on our website, or is inconsistent with or amounts to a waiver of any SocialProof rights,
                               the email content will be read down to grant precedence to the latter. The only exception to this is genuine
-                              correspondence expressed to be from the Trolli legal department.
+                              correspondence expressed to be from the SocialProof legal department.
                          </li>
                     </ol>
                </div>
@@ -431,7 +430,6 @@
 
      h1 {
           font-size: 50px;
-          font-family: Lato, sans-serif;
           font-style: normal;
           font-weight: 500;
 
@@ -452,7 +450,6 @@
 
      h2 {
           font-size: 35px;
-          font-family: Lato, sans-serif;
           font-style: normal;
           font-weight: 500;
           text-align: left;
